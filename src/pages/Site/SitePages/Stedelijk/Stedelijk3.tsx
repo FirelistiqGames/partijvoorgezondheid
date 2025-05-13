@@ -11,7 +11,7 @@ export function Stedelijk3() {
     return (
         <>
             <Helmet>
-                <title>PvG - Stedelijk3</title>
+                <title>PvG - GGD Samenwerking Basisscholen</title>
                 <link rel="icon" type="ico" href="/logo.ico" />
             </Helmet>
             <SidebarProvider>
