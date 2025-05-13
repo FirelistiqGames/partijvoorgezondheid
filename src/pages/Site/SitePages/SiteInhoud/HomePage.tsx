@@ -8,14 +8,14 @@ export function HomePage() {
                 <div className="w-full">
                     
                     <img
-                        src={`${import.meta.env.BASE_URL}banner-light.png`} 
+                        src={`${import.meta.env.BASE_URL}light-mode.png`} 
                         alt="Banner for light mode"
                         className="w-full h-auto block dark:hidden"
                     />
 
                     
                     <img
-                        src={`${import.meta.env.BASE_URL}banner-dark.png`}
+                        src={`${import.meta.env.BASE_URL}dark-mode.png`}
                         alt="Banner for dark mode"
                         className="w-full h-auto hidden dark:block"
                     />
