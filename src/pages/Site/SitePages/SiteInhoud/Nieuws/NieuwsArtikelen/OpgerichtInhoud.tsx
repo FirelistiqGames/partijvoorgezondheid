@@ -7,14 +7,14 @@ export function OpgerichtInhoud() {
                 <div className="">
 
                     <img
-                        src={`${import.meta.env.BASE_URL}banner-light.png`}
+                        src={`${import.meta.env.BASE_URL}tygobanner.png`}
                         alt="Banner for light mode"
                         className="w-full lg:w-2/3 mx-auto h-auto block dark:hidden border border-gray-300 dark:border-gray-600 rounded-sm"
                     />
 
 
                     <img
-                        src={`${import.meta.env.BASE_URL}banner-dark.png`}
+                        src={`${import.meta.env.BASE_URL}tygobanner.png`}
                         alt="Banner for dark mode"
                         className="w-full lg:w-2/3 mx-auto h-auto hidden dark:block border border-gray-300 dark:border-gray-600 rounded-sm"
                     />

@@ -12,14 +12,14 @@ export interface NewsItem {
       title: "Nieuwe politieke partij 'Partij voor Gezondheid' gelanceerd in Gouda",
       content:
         "Gouda, 12 mei 2025 - Vandaag werd in Gouda officieel de nieuwe politieke partij Partij voor Gezondheid (PvG) gepresenteerd. De partij heeft als doelstelling de fysieke en mentale gezondheid van burgers aanzienlijk te verbeteren, zowel lokaal als landelijk.",
-      image: `${import.meta.env.BASE_URL}banner-light.png`,
+      image: `${import.meta.env.BASE_URL}tygobanner.png`,
       link: "/nieuws/opgericht",
     },
-    /*}
+    /*
     {
-      title: "Partij voor Gezondheid Opgericht2222!",
+      title: "Nieuwe politieke partij 'Partij voor Gezondheid' gelanceerd in Gouda",
       content:
-        "Partij voor Gezondheid is opgericht! De partij zet zich in voor de gezondheid van Nederlanders. Gezondheid is geen luxe, het is een recht!",
+        "Gouda, 12 mei 2025 - Vandaag werd in Gouda officieel de nieuwe politieke partij Partij voor Gezondheid (PvG) gepresenteerd. De partij heeft als doelstelling de fysieke en mentale gezondheid van burgers aanzienlijk te verbeteren, zowel lokaal als landelijk.",
       image: `${import.meta.env.BASE_URL}banner-light.png`,
       link: "/Nieuws/opgericht2222",
     },

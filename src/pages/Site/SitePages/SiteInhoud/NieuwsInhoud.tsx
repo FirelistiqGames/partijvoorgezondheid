@@ -13,7 +13,7 @@ export function NieuwsOverzicht() {
                 <Link to={item.link} key={index} className="block">
                     <Card className="rounded-xl overflow-hidden transition-shadow hover:shadow-lg">
                         <CardHeader>
-                            <img src={item.image} alt={item.title} className="rounded-t-xl" />
+                            <img src={item.image} alt={item.title} className="rounded-t-xl mx-auto max-h-60 object-cover " />
                             <CardTitle className="text-2xl text-red-700 font-bold">{item.title}</CardTitle>
                         </CardHeader>
                         <CardContent>
