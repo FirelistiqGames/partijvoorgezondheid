@@ -1,9 +1,15 @@
+import { AccordionStedelijk2 } from "@/pages/layout/Accordion";
 
 
-export function Stedelijk2Inhoud(){
-    return(
+export function Stedelijk2Inhoud() {
+    return (
         <>
-        <h1 className="mt-15 ml-3">Scholen in de regio moeten verplicht een vertrouwenspersoon en mentale gezondheidstraining aanbieden aan leerlingen.</h1>
+            <div className="flex flex-col lg:flex-row gap-8 items-start px-6 mt-15">
+                <div className="lg:w-3/5 ">
+                    <h1 className="text-xl text-red-700 font-bold">Preventieve gezondheidszorg</h1>
+                </div>
+                <AccordionStedelijk2 />
+            </div>
         </>
     )
 }

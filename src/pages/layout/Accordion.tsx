@@ -188,3 +188,193 @@ export function AccordionLandelijk3() {
     );
 }
 
+
+const Stedelijk1s = [
+    {
+        id: "1",
+        title: "1",
+        content:
+            "Uitleg ",
+    },
+    {
+        id: "2",
+        title: "2",
+        content:
+            "Uitleg",
+    },
+    {
+        id: "3",
+        title: "3",
+        content:
+            "Uitleg",
+    },
+    {
+        id: "4",
+        title: "4",
+        content:
+            "Uitleg",
+    },
+];
+
+
+const Stedelijk2s = [
+    {
+        id: "1",
+        title: "1",
+        content:
+            "Uitleg ",
+    },
+    {
+        id: "2",
+        title: "2",
+        content:
+            "Uitleg",
+    },
+    {
+        id: "3",
+        title: "3",
+        content:
+            "Uitleg",
+    },
+    {
+        id: "4",
+        title: "4",
+        content:
+            "Uitleg",
+    },
+];
+
+
+const Stedelijk3s = [
+    {
+        id: "1",
+        title: "1",
+        content:
+            "Uitleg",
+    },
+    {
+        id: "2",
+        title: "2",
+        content:
+            "Uitleg",
+    },
+    {
+        id: "3",
+        title: "3",
+        content:
+            "Uitleg",
+    },
+    {
+        id: "4",
+        title: "4",
+        content:
+            "Uitleg",
+    },
+];
+
+
+
+
+// !!!!LANDELIJK1!!!
+export function AccordionStedelijk1() {
+    return (
+        
+            <Card className="ml-auto lg:w-2/5 mr-5 pr-5 pt-5 mb-5 pb-5"> 
+            {/* </Card><Card className="ml-auto w-100 mr-5 pr-5 mt-5 pt-5 mb-5 pb-5">  */}
+            <Accordion type="single" collapsible className="w-full ml-3 " >
+            <h2 className="text-xl font-bold text-red-700   ">Hoe?</h2>
+                {Stedelijk1s.map((Stedelijk1) => (
+                    <AccordionItem value={Stedelijk1.id} key={Stedelijk1.id} className="py-2">
+                        <AccordionPrimitive.Header className="flex">
+                            <AccordionPrimitive.Trigger className="flex flex-1 items-center justify-between py-2 text-left text-[15px] font-semibold leading-6 transition-all [&>svg>path:last-child]:origin-center [&>svg>path:last-child]:transition-all [&>svg>path:last-child]:duration-200 [&[data-state=open]>svg>path:last-child]:rotate-90 [&[data-state=open]>svg>path:last-child]:opacity-0 [&[data-state=open]>svg]:rotate-180">
+                                <span className="flex items-center gap-3">
+                                    <span>{Stedelijk1.title}</span>
+                                </span>
+                                <Plus
+                                    size={16}
+                                    strokeWidth={2}
+                                    className="shrink-0 opacity-60 transition-transform duration-200"
+                                    aria-hidden="true"
+                                />
+                            </AccordionPrimitive.Trigger>
+                        </AccordionPrimitive.Header>
+                        <AccordionContent className=" text-muted-foreground">
+                            {Stedelijk1.content}
+                        </AccordionContent>
+                    </AccordionItem>
+                ))}
+            </Accordion>
+
+        </Card>
+    );
+}
+
+
+// !!!!LANDELIJK2!!!!
+export function AccordionStedelijk2() {
+    return (
+        
+            <Card className="ml-auto lg:w-2/5 mr-5 pr-5 pt-5 mb-5 pb-5"> 
+            {/* </Card><Card className="ml-auto w-100 mr-5 pr-5 mt-5 pt-5 mb-5 pb-5">  */}
+            <Accordion type="single" collapsible className="w-full ml-3 " >
+            <h2 className="text-xl font-bold text-red-700   ">Hoe?</h2>
+                {Stedelijk2s.map((Stedelijk2) => (
+                    <AccordionItem value={Stedelijk2.id} key={Stedelijk2.id} className="py-2">
+                        <AccordionPrimitive.Header className="flex">
+                            <AccordionPrimitive.Trigger className="flex flex-1 items-center justify-between py-2 text-left text-[15px] font-semibold leading-6 transition-all [&>svg>path:last-child]:origin-center [&>svg>path:last-child]:transition-all [&>svg>path:last-child]:duration-200 [&[data-state=open]>svg>path:last-child]:rotate-90 [&[data-state=open]>svg>path:last-child]:opacity-0 [&[data-state=open]>svg]:rotate-180">
+                                <span className="flex items-center gap-3">
+                                    <span>{Stedelijk2.title}</span>
+                                </span>
+                                <Plus
+                                    size={16}
+                                    strokeWidth={2}
+                                    className="shrink-0 opacity-60 transition-transform duration-200"
+                                    aria-hidden="true"
+                                />
+                            </AccordionPrimitive.Trigger>
+                        </AccordionPrimitive.Header>
+                        <AccordionContent className=" text-muted-foreground">
+                            {Stedelijk2.content}
+                        </AccordionContent>
+                    </AccordionItem>
+                ))}
+            </Accordion>
+
+        </Card>
+    );
+}
+
+
+// !!!!LANDELIJK3!!!!
+export function AccordionStedelijk3() {
+    return (
+        
+            <Card className="ml-auto lg:w-2/5 mr-5 pr-5 pt-5 mb-5 pb-5"> 
+            {/* </Card><Card className="ml-auto w-100 mr-5 pr-5 mt-5 pt-5 mb-5 pb-5">  */}
+            <Accordion type="single" collapsible className="w-full ml-3 " >
+            <h2 className="text-xl font-bold text-red-700   ">Hoe?</h2>
+                {Stedelijk3s.map((Stedelijk3) => (
+                    <AccordionItem value={Stedelijk3.id} key={Stedelijk3.id} className="py-2">
+                        <AccordionPrimitive.Header className="flex">
+                            <AccordionPrimitive.Trigger className="flex flex-1 items-center justify-between py-2 text-left text-[15px] font-semibold leading-6 transition-all [&>svg>path:last-child]:origin-center [&>svg>path:last-child]:transition-all [&>svg>path:last-child]:duration-200 [&[data-state=open]>svg>path:last-child]:rotate-90 [&[data-state=open]>svg>path:last-child]:opacity-0 [&[data-state=open]>svg]:rotate-180">
+                                <span className="flex items-center gap-3">
+                                    <span>{Stedelijk3.title}</span>
+                                </span>
+                                <Plus
+                                    size={16}
+                                    strokeWidth={2}
+                                    className="shrink-0 opacity-60 transition-transform duration-200"
+                                    aria-hidden="true"
+                                />
+                            </AccordionPrimitive.Trigger>
+                        </AccordionPrimitive.Header>
+                        <AccordionContent className=" text-muted-foreground">
+                            {Stedelijk3.content}
+                        </AccordionContent>
+                    </AccordionItem>
+                ))}
+            </Accordion>
+
+        </Card>
+    );
+}
