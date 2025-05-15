@@ -16,8 +16,8 @@ const routeConfig: Record<string, string> = {
   "preventieve-gezondheidszorg": "Preventieve Gezondheidszorg",
   "mentale-gezondheid": "Mentale Gezondheid",
   "subsidies-medische-studies": "Subsidies Medische Studies",
-  "sportprogramma-ouderen": "Sportprogramma Ouderen",
-  "school-vertrouwenspersoon": "School Vertrouwenspersoon",
+  "sportprogramma-ouderen": "Sportprogramma Ouderen en Lage Inkomens",
+  "school-vertrouwenspersoon": "Vertrouwenspersoon op School",
   "ggd-samenwerking-basisscholen": "GGD Samenwerking Basisscholen",
   
 }
