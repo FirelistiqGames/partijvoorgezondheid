@@ -63,27 +63,27 @@ const Landelijk2s = [
 const Landelijk3s = [
     {
         id: "1",
-        title: "1",
+        title: "Prestatiegerichte subsidie voor collegegeld",
         content:
-            "Uitleg",
+            "Om medische studies voor een bredere groep studenten bereikbaar te maken, stelt de overheid een subsidie beschikbaar waarmee het collegegeld vanaf de start van de opleiding wordt verlaagd. Alle studenten ontvangen dit gelijke startbedrag, zodat financiële achtergrond geen belemmering vormt om aan een medische opleiding te beginnen. Tegelijkertijd stimuleert de regeling verantwoordelijkheid en inzet: de hoogte van de subsidie wordt gedurende de studie aangepast op basis van studieresultaten. Als de voortgang structureel achterblijft, wordt de subsidie geleidelijk afgebouwd of volledig stopgezet. Op deze manier wordt instroom eerlijker verdeeld en studie-uitval actief tegengegaan, zonder dat het open karakter van de opleiding verloren gaat.",
     },
     {
         id: "2",
-        title: "2",
+        title: "Meer opleidingsplekken voor medische studies",
         content:
-            "Uitleg",
+            "Veel studenten die zich aanmelden voor medische studies worden uitgeloot, terwijl ze voldoen aan de gestelde eisen en de motivatie hebben om een bijdrage te leveren aan de zorg. Tegelijkertijd kampt de sector met een toenemend tekort aan professionals, wat de druk op het zorgstelsel vergroot. Door te investeren in de uitbreiding van opleidingscapaciteit bij universiteiten en hogescholen, maakt de overheid het mogelijk dat meer studenten worden toegelaten. Het afbouwen van numerus fixus-beperkingen en het beter afstemmen van instroom op de arbeidsmarktbehoefte zorgen ervoor dat studies niet alleen toegankelijker worden, maar ook bijdragen aan de toekomstbestendigheid van de zorg.",
     },
     {
         id: "3",
-        title: "3",
+        title: "Eerlijke en toegankelijke selectieprocedures",
         content:
-            "Uitleg",
+            "De huidige toelatingsprocedures voor medische studies zijn vaak opgebouwd uit elementen zoals motivatiebrieven of selectiedagen, die sterk beïnvloed worden door iemands achtergrond, voorbereiding of netwerk. Studenten uit kansrijke milieus hebben hierdoor een voorsprong, terwijl anderen met evenveel potentie onterecht achterblijven. Om dit te doorbreken, stelt de overheid richtlijnen op die onderwijsinstellingen verplichten om gebruik te maken van objectieve, inhoudelijke en transparante toetsvormen. Hiermee wordt de toegang tot medische opleidingen gelijker verdeeld en gebaseerd op kwaliteit en geschiktheid, in plaats van sociale positie of betaalde voorbereiding.",
     },
     {
         id: "4",
-        title: "4",
+        title: "Landelijke voortrajecten voor bredere instroom",
         content:
-            "Uitleg",
+            "Niet iedere student heeft direct toegang tot een medische studie, bijvoorbeeld vanwege een andere vooropleiding of gemiste toelatingseisen. Toch beschikt deze groep vaak over de motivatie en het leervermogen om in de zorgsector aan de slag te gaan. Door in samenwerking met mbo’s, vo-scholen en hogescholen landelijke voortrajecten aan te bieden, vergroot de overheid de instroommogelijkheden naar medische opleidingen. Deze trajecten bieden inhoudelijke bijspijkering, studiekeuzehulp en loopbaanoriëntatie, en vormen zo een brug tussen uiteenlopende achtergronden en het hoger medisch onderwijs. Hierdoor krijgen meer mensen de kans om hun talent in te zetten voor de gezondheidszorg.",
     },
 ];
 
@@ -161,7 +161,7 @@ export function AccordionLandelijk3() {
     return (
         <Card className="ml-auto w-full lg:w-2/5 mr-5 pr-5 pt-5 mb-5 pb-5 sticky top-[4rem] self-start">
             <Accordion type="single" collapsible className="w-full ml-3" >
-            <h2 className="text-xl font-bold text-red-700">Hoe?</h2>
+            <h2 className="text-xl font-bold text-red-700">Wat gaan we doen?</h2>
                 {Landelijk3s.map((Landelijk3) => (
                     <AccordionItem value={Landelijk3.id} key={Landelijk3.id} className="py-2">
                         <AccordionPrimitive.Header className="flex">
@@ -192,27 +192,27 @@ export function AccordionLandelijk3() {
 const Stedelijk1s = [
     {
         id: "1",
-        title: "1",
+        title: "Inzetten op het Volwassenenfonds",
         content:
-            "Uitleg ",
+            "Voor mensen met een laag inkomen zijn sportabonnementen vaak onbetaalbaar, terwijl juist zij veel baat hebben bij meer beweging. Door als gemeente actief gebruik te maken van het Volwassenenfonds Sport & Cultuur kunnen deze inwoners gratis sporten bij een vereniging of deelnemen aan georganiseerde activiteiten. Dit fonds is landelijk georganiseerd, maar werkt lokaal het best als de gemeente goed samenwerkt met huisartsen, wijkteams en sportaanbieders om inwoners door te verwijzen en te ondersteunen bij de aanvraag. Zo wordt sporten weer een realistische optie voor mensen die anders buitengesloten raken.",
     },
     {
         id: "2",
-        title: "2",
+        title: "Gratis activiteiten in de wijk",
         content:
-            "Uitleg",
+            "Voor ouderen en minima zijn drempels als vervoer, anonimiteit of een gebrek aan passend aanbod vaak redenen om niet te bewegen. Door in samenwerking met Sport.Gouda gratis en herkenbare beweegactiviteiten aan te bieden in de eigen wijk (zoals wandelgroepen, yoga, stoelyoga of lichte fitness) wordt de stap om mee te doen een stuk kleiner. Als deze activiteiten plaatsvinden op vaste momenten in laagdrempelige locaties zoals buurthuizen of ontmoetingscentra, ontstaat er niet alleen een gezonde routine, maar ook meer sociale verbinding in de wijk.",
     },
     {
         id: "3",
-        title: "3",
+        title: "Groepslessen op vaste locaties",
         content:
-            "Uitleg",
+            "Veel mensen hebben behoefte aan structuur, herkenning en veiligheid als het gaat om sport. Daarom is het waardevol als de gemeente op centrale plekken in de stad (denk aan wijkcentra, buurthuizen of sporthallen) wekelijks gratis groepslessen organiseert. Deze lessen kunnen gericht zijn op ouderen of mensen met weinig sportervaring, zoals seniorengym, valpreventie of laagdrempelige dans- of beweeggroepen. Door het aanbod openbaar, gratis en terugkerend te maken, wordt deelname vanzelfsprekender, ook voor mensen die normaal niet snel in beweging komen.",
     },
     {
         id: "4",
-        title: "4",
+        title: "Sportvergoeding via minimaregeling",
         content:
-            "Uitleg",
+            "Ook structurele deelname aan sport moet mogelijk zijn voor mensen met weinig financiële ruimte. De gemeente kan sport en beweging opnemen in de bestaande minimaregeling en een specifiek bedrag beschikbaar stellen waarmee inwoners bijvoorbeeld een sportabonnement, zwemles of deelname aan groepslessen kunnen bekostigen. Door dit automatisch toe te kennen aan mensen die al bekend zijn bij de gemeente, wordt onnodige administratie voorkomen en worden juist de inwoners bereikt die extra ondersteuning het hardst nodig hebben. Dit bevordert niet alleen de gezondheid, maar ook de zelfredzaamheid en het welzijn op de lange termijn.",
     },
 ];
 
@@ -220,27 +220,27 @@ const Stedelijk1s = [
 const Stedelijk2s = [
     {
         id: "1",
-        title: "1",
+        title: "Vertrouwenspersoon subsidiëren",
         content:
-            "Uitleg ",
+            "De gemeente Gouda moet scholen ondersteunen bij het aanstellen van een vaste vertrouwenspersoon, omdat veel leerlingen vandaag de dag kampen met mentale druk, sociale onzekerheid of problemen thuis. Niet elke school heeft de middelen om hier structureel een professional voor in te zetten. Door een gemeentelijke subsidieregeling op te zetten, maakt Gouda het mogelijk voor scholen om iemand aan te stellen die laagdrempelig beschikbaar is voor leerlingen. Dit voorkomt dat mentale klachten onopgemerkt blijven en zorgt ervoor dat jongeren tijdig hulp kunnen krijgen in een vertrouwde omgeving.",
     },
     {
         id: "2",
-        title: "2",
+        title: "Gratis lesaanbod mentale gezondheid",
         content:
-            "Uitleg",
+            "Mentale gezondheid verdient een vaste plek in het lesprogramma, net zoals vakken als biologie of burgerschap. Jongeren hebben praktische handvatten nodig om met stress, prestatiedruk en emotionele uitdagingen om te gaan. De gemeente Gouda kan dit mogelijk maken door één regionaal lesprogramma te laten ontwikkelen of in te kopen, in samenwerking met GGD of onderwijspartners. Door dit aanbod gratis beschikbaar te stellen aan scholen in Gouda, hoeven individuele scholen het wiel niet zelf uit te vinden én wordt de kwaliteit en consistentie gewaarborgd binnen het hele onderwijsveld.",
     },
     {
         id: "3",
-        title: "3",
+        title: "Coördinator mentale gezondheid aanstellen",
         content:
-            "Uitleg",
+            "Scholen hebben vaak wel de intentie om mentale gezondheid aan te pakken, maar missen capaciteit, expertise en structuur om dat goed te doen. Daarom is het van belang dat de gemeente Gouda een lokale coördinator aanstelt die zich specifiek richt op mentale gezondheid binnen het onderwijs. Deze persoon of dit team begeleidt scholen bij de invoering van het lesaanbod, regelt bijscholing voor docenten en fungeert als brug tussen scholen, jeugdzorg, GGD en welzijnsorganisaties. Zo zorgt Gouda voor samenhang en voorkomt het versnipperen van inspanningen.",
     },
     {
         id: "4",
-        title: "4",
+        title: "Jongeren laten meedenken",
         content:
-            "Uitleg",
+            "Jongeren weten zelf het beste wat hen bezighoudt en wat zij nodig hebben. Daarom is het essentieel dat de gemeente Gouda jongeren actief betrekt bij het opzetten van beleid rondom mentale gezondheid op school. Dit kan door leerlingenpanels op te richten, scholen te ondersteunen bij het houden van klasgesprekken of anonieme vragenlijsten uit te zetten. Op basis van deze input kan de gemeente beter inspelen op wat er écht speelt onder jongeren. Tegelijk wordt de kans vergroot dat jongeren de ondersteuning herkennen, vertrouwen en daadwerkelijk gebruiken.",
     },
 ];
 
@@ -248,27 +248,27 @@ const Stedelijk2s = [
 const Stedelijk3s = [
     {
         id: "1",
-        title: "1",
+        title: "Begeleiding bij Gezonde School",
         content:
-            "Uitleg",
+            "Gouda moet scholen actief begeleiden bij het invoeren van de Gezonde School-aanpak omdat dit dé manier is om gezondheid structureel te verankeren binnen het onderwijs. Veel basisscholen willen wel aan de slag met gezonde voeding of beweging, maar weten niet waar ze moeten beginnen of missen de capaciteit. Door als gemeente samen te werken met de GGD om deze aanpak toegankelijk en uitvoerbaar te maken, kunnen scholen ondersteund worden met expertise, tijd en praktische hulpmiddelen. Gouda kan hiervoor een projectteam opzetten dat scholen adviseert, koppelt aan de juiste partijen en helpt bij het opstellen van een plan op maat. Zo zorgt de gemeente ervoor dat gezondheid niet afhankelijk is van toevallige inzet of subsidies, maar een vast onderdeel wordt van het schoolbeleid.",
     },
     {
         id: "2",
-        title: "2",
+        title: "Lesprogramma met GGD ontwikkelen",
         content:
-            "Uitleg",
+            "Gouda moet investeren in een gezamenlijk lesprogramma over gezonde voeding en beweging, omdat kinderen beter leren wanneer ze op jonge leeftijd actief en herhaaldelijk met deze thema's bezig zijn. Momenteel verschilt het sterk per school wat er wel of niet wordt aangeboden, en dat zorgt voor ongelijkheid. Door samen met de GGD een regionaal lespakket te ontwikkelen dat vanaf groep 5 op alle scholen kan worden gebruikt, creëert Gouda een basisaanpak waar alle leerlingen toegang toe hebben. De gemeente kan dit programma gratis beschikbaar stellen en zorgen voor scholing van leraren, zodat het ook goed en eenduidig wordt uitgevoerd. Dit bevordert niet alleen de kennis van kinderen, maar zorgt ook voor gedragsverandering op de lange termijn.",
     },
     {
         id: "3",
-        title: "3",
+        title: "GGD vast op school",
         content:
-            "Uitleg",
+            "Gouda moet regelen dat de GGD structureel op scholen aanwezig is, omdat gezondheid dan zichtbaar en vertrouwd wordt in het dagelijks leven van leerlingen. Gastlessen of eenmalige projecten zijn waardevol, maar hebben pas echt effect als ze regelmatig terugkomen en herkenbaar worden voor kinderen. Door bijvoorbeeld elk kwartaal een GGD-medewerker op school te laten komen voor een interactieve les, een workshop of een themadag, leren kinderen op een speelse en laagdrempelige manier over gezonde keuzes. De gemeente kan dit organiseren door met de GGD vaste schoolbezoeken af te spreken en dit onderdeel te maken van het gemeentelijk preventiebeleid. Zo wordt gezondheid niet iets vrijblijvends, maar iets dat letterlijk de klas binnenkomt.",
     },
     {
         id: "4",
-        title: "4",
+        title: "Gezondheidsdata delen met scholen",
         content:
-            "Uitleg",
+            "Gouda moet scholen actief betrekken bij het gebruik van gezondheidsgegevens, omdat scholen daarmee beter zicht krijgen op wat hun leerlingen nodig hebben. Zonder duidelijke informatie is het lastig om beleid te maken of te evalueren. De GGD verzamelt al gegevens over o.a. BMI, beweging en voeding, en de gemeente kan ervoor zorgen dat deze informatie op schoolniveau wordt teruggekoppeld in begrijpelijke rapportages. Daarbij kan Gouda de GGD inzetten om scholen te begeleiden bij het analyseren van de data en bij het kiezen van passende acties. Denk aan extra voorlichting, het aanpassen van het beweegaanbod of gesprekken met ouders. Door gezondheid inzichtelijk te maken, wordt het niet alleen een gevoel van urgentie, maar ook een concrete basis voor gericht en effectief schoolbeleid.",
     },
 ];
 
@@ -282,7 +282,7 @@ export function AccordionStedelijk1() {
             <Card className="ml-auto w-full lg:w-2/5 mr-5 pr-5 pt-5 mb-5 pb-5 sticky top-[4rem] self-start"> 
             {/* </Card><Card className="ml-auto w-100 mr-5 pr-5 mt-5 pt-5 mb-5 pb-5">  */}
             <Accordion type="single" collapsible className="w-full ml-3 " >
-            <h2 className="text-xl font-bold text-red-700   ">Hoe?</h2>
+            <h2 className="text-xl font-bold text-red-700   ">Wat gaan we doen?</h2>
                 {Stedelijk1s.map((Stedelijk1) => (
                     <AccordionItem value={Stedelijk1.id} key={Stedelijk1.id} className="py-2">
                         <AccordionPrimitive.Header className="flex">
@@ -317,7 +317,7 @@ export function AccordionStedelijk2() {
             <Card className="ml-auto w-full lg:w-2/5 mr-5 pr-5 pt-5 mb-5 pb-5 sticky top-[4rem] self-start"> 
             {/* </Card><Card className="ml-auto w-100 mr-5 pr-5 mt-5 pt-5 mb-5 pb-5">  */}
             <Accordion type="single" collapsible className="w-full ml-3 " >
-            <h2 className="text-xl font-bold text-red-700   ">Hoe?</h2>
+            <h2 className="text-xl font-bold text-red-700   ">Wat gaan we doen?</h2>
                 {Stedelijk2s.map((Stedelijk2) => (
                     <AccordionItem value={Stedelijk2.id} key={Stedelijk2.id} className="py-2">
                         <AccordionPrimitive.Header className="flex">
@@ -352,7 +352,7 @@ export function AccordionStedelijk3() {
             <Card className="ml-auto w-full lg:w-2/5 mr-5 pr-5 pt-5 mb-5 pb-5 sticky top-[4rem] self-start"> 
             {/* </Card><Card className="ml-auto w-100 mr-5 pr-5 mt-5 pt-5 mb-5 pb-5">  */}
             <Accordion type="single" collapsible className="w-full ml-3 " >
-            <h2 className="text-xl font-bold text-red-700   ">Hoe?</h2>
+            <h2 className="text-xl font-bold text-red-700   ">Wat gaan we doen?</h2>
                 {Stedelijk3s.map((Stedelijk3) => (
                     <AccordionItem value={Stedelijk3.id} key={Stedelijk3.id} className="py-2">
                         <AccordionPrimitive.Header className="flex">

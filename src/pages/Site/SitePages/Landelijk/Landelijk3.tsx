@@ -10,7 +10,7 @@ export function SubsidiesMedischeStudies(){
     return(
       <>
       <Helmet>
-      <title>PvG - Subsidies Medische Studies </title>
+      <title>PvG - Toegankelijker maken medische studies </title>
       <link rel="icon" type="ico" href="/logo.ico"/>
     </Helmet>
         <SidebarProvider>

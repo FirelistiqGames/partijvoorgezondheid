@@ -15,7 +15,7 @@ const routeConfig: Record<string, string> = {
   "wetsvoorstel": "Wetsvoorstel",
   "preventieve-gezondheidszorg": "Preventieve Gezondheidszorg",
   "mentale-gezondheid": "Mentale Gezondheid",
-  "subsidies-medische-studies": "Subsidies Medische Studies",
+  "toegankelijker-maken-medische-studies": "Toegankelijker Maken van Medische Studies",
   "sportprogramma-ouderen": "Sportprogramma Ouderen en Lage Inkomens",
   "school-vertrouwenspersoon": "Vertrouwenspersoon op School",
   "ggd-samenwerking-basisscholen": "GGD Samenwerking Basisscholen",
@@ -52,7 +52,7 @@ export const Breadcrumbs = () => {
         return (
           <BreadcrumbItem key={path}>
             {isLast ? (
-              <span className="text-muted-foreground truncate max-w-[180px] md:max-w-none">{label}</span>
+              <span className="text-muted-foreground truncate max-w-[60vw] md:max-w-none">{label}</span>
             ) : (
               <>
                 <BreadcrumbLink asChild>

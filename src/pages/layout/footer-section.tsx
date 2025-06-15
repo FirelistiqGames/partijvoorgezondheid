@@ -67,12 +67,8 @@ function Footerdemo() {
             <Link to="/home" className="block transition-colors hover:text-primary">Home</Link> 
             <Link to="/over-ons" className="block transition-colors hover:text-primary">Over Ons</Link>
             <Link to="/nieuws" className="block transition-colors hover:text-primary">Nieuws</Link>
-              <a href="#" className="block transition-colors hover:text-primary">
-                Products
-              </a>
-              <a href="#" className="block transition-colors hover:text-primary">
-                Contact
-              </a>
+            <Link to="/wetsvoorstel" className="block transition-colors hover:text-primary">Wetsvoorstel</Link>
+
             </nav>
           </div>
           <div>
@@ -81,7 +77,7 @@ function Footerdemo() {
               <p>Willem de Zwijgersingel 5</p>
               <p>2805 BP, Gouda</p>
               <p>Telefoon: 0182-800850</p>
-              <p>Email: partij.voor.gezondheid.info@gmail.com</p>
+              <p>Email: partij.voor.gezondheid@info.com</p>
             </address>
           </div>
           <div className="relative">

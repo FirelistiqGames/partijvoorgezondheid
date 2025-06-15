@@ -30,8 +30,8 @@ const Landelijks = [
         url: "/mentale-gezondheid",
     },
     {
-        title: "Subsidies Medische Studies",
-        url: "/subsidies-medische-studies",
+        title: "Toegankelijker Maken van Medische Studies",
+        url: "/toegankelijker-maken-medische-studies",
     },
 ]
 

@@ -34,7 +34,7 @@ export default function App() {
         <Route path='/wetsvoorstel' element={<Wetsvoorstel />} />
         <Route path='/preventieve-gezondheidszorg' element={<PreventieveGezondheidszorg />} />
         <Route path='/mentale-gezondheid' element={<MentaleGezondheid />} />
-        <Route path='/subsidies-medische-studies' element={<SubsidiesMedischeStudies />} />
+        <Route path='/toegankelijker-maken-medische-studies' element={<SubsidiesMedischeStudies />} />
         <Route path='/sportprogramma-ouderen' element={<Stedelijk1 />} />
         <Route path='/school-vertrouwenspersoon' element={<Stedelijk2 />} />
         <Route path='/ggd-samenwerking-basisscholen' element={<Stedelijk3 />} />
