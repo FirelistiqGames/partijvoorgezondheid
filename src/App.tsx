@@ -12,6 +12,8 @@ import { Stedelijk3 } from './pages/Site/SitePages/Stedelijk/Stedelijk3';
 import { Nieuws } from './pages/Site/SitePages/Nieuws';
 import { Wetsvoorstel } from './pages/Site/SitePages/Wetsvoorstel';
 import { Opgericht } from './pages/Site/SitePages/SiteInhoud/Nieuws/Opgericht';
+import { PrivacyBeleid } from './pages/Site/SitePages/PrivacyBeleid';
+import { TermsofService } from './pages/Site/SitePages/TermsOfService';
 
 
 
@@ -39,7 +41,8 @@ export default function App() {
         <Route path='/school-vertrouwenspersoon' element={<Stedelijk2 />} />
         <Route path='/ggd-samenwerking-basisscholen' element={<Stedelijk3 />} />
         <Route path='/nieuws/opgericht' element={<Opgericht />} />
-        {/* laatste 3 moeten nog aangepast worden naar daadwerkelijke titels */}
+        <Route path='/privacy-policy' element={<PrivacyBeleid />} />
+        <Route path='/terms-of-service' element={<TermsofService />} />
 
       </Routes>
 

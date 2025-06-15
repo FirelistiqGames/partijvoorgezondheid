@@ -19,6 +19,7 @@ const routeConfig: Record<string, string> = {
   "sportprogramma-ouderen": "Sportprogramma Ouderen en Lage Inkomens",
   "school-vertrouwenspersoon": "Vertrouwenspersoon op School",
   "ggd-samenwerking-basisscholen": "GGD Samenwerking Basisscholen",
+  "privacy-beleid": "Privacy Beleid"
   
 }
 

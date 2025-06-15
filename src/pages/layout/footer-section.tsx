@@ -77,7 +77,7 @@ function Footerdemo() {
               <p>Willem de Zwijgersingel 5</p>
               <p>2805 BP, Gouda</p>
               <p>Telefoon: 0182-800850</p>
-              <p>Email: partij.voor.gezondheid@info.com</p>
+              <p>Email: partij.voor.gezondheid@info.nl</p>
             </address>
           </div>
           <div className="relative">
@@ -157,12 +157,10 @@ function Footerdemo() {
             <p className="text-sm text-muted-foreground font-bold"> DISCLAIMER: Neppe politieke partij!
               </p> 
           <nav className="flex gap-4 text-sm">
-            <a href="#" className="transition-colors hover:text-primary">
-              Privacy Policy
-            </a>
-            <a href="#" className="transition-colors hover:text-primary">
-              Terms of Service
-            </a>
+            <Link to="/privacy-policy" className="block transition-colors hover:text-primary">Privacy Policy</Link> 
+            <Link to="/terms-of-service" className="block transition-colors hover:text-primary">Terms of Service</Link> 
+            
+
             <a href="#" className="transition-colors hover:text-primary">
               Cookie Settings
             </a>
