@@ -13,7 +13,7 @@ const Landelijk1s = [
     },
     {
         id: "2",
-        title: "Sport lidmaatschappen goedkoper",
+        title: "Subsidies op sportlidmaatschappen",
         content:
             "Regelmatig sporten draagt sterk bij aan een betere lichamelijke en mentale gezondheid. Toch is het voor veel mensen financieel niet haalbaar om lid te worden van een sportclub of sportschool. Door sportlidmaatschappen landelijk goedkoper te maken, bijvoorbeeld via subsidies of belastingvoordelen, kan de overheid sport voor iedereen toegankelijk maken. Denk aan gerichte steun voor huishoudens met een laag inkomen, jongeren of mensen met een chronische aandoening. Investeren in sport als preventieve maatregel helpt om overgewicht, diabetes type 2, hart- en vaatziekten en psychische klachten te voorkomen, en verlaagt op termijn de druk op de zorg.",
     },
@@ -21,7 +21,7 @@ const Landelijk1s = [
         id: "3",
         title: "Alcohol preventie",
         content:
-            "Alcoholgebruik brengt grote gezondheidsrisico’s met zich mee, zoals leverschade, verslaving, psychische problemen en een verhoogde kans op kanker. Daarom is het belangrijk om op landelijk niveau maatregelen te nemen die alcoholgebruik ontmoedigen. Voorbeelden hiervan zijn het verhogen van de accijnzen op alcohol, het beperken van alcoholreclame, duidelijke waarschuwingen op verpakkingen én het verhogen van de minimumleeftijd voor alcohol van 18 naar 21 jaar. Vooral jongeren zijn gevoelig voor de schadelijke effecten van alcohol; hoe later zij beginnen met drinken, hoe kleiner het risico op latere problemen. Met een stevige preventieve aanpak wordt de volksgezondheid versterkt en worden toekomstige zorgkosten beperkt.",
+            "Alcoholgebruik brengt grote gezondheidsrisico's met zich mee, zoals leverschade, verslaving, psychische problemen en een verhoogde kans op kanker. Daarom is het belangrijk om op landelijk niveau maatregelen te nemen die alcoholgebruik ontmoedigen. Voorbeelden hiervan zijn het verhogen van de accijnzen op alcohol, het beperken van alcoholreclame, duidelijke waarschuwingen op verpakkingen én het verhogen van de minimumleeftijd voor alcohol van 18 naar 21 jaar. Vooral jongeren zijn gevoelig voor de schadelijke effecten van alcohol; hoe later zij beginnen met drinken, hoe kleiner het risico op latere problemen. Met een stevige preventieve aanpak wordt de volksgezondheid versterkt en worden toekomstige zorgkosten beperkt.",
     },
     {
         id: "4",
@@ -35,27 +35,27 @@ const Landelijk1s = [
 const Landelijk2s = [
     {
         id: "1",
-        title: "1",
+        title: "Voorlichting op scholen",
         content:
-            "Uitleg ",
+            "Om mentale problemen in een vroeg stadium te voorkomen, is het belangrijk dat jongeren leren hoe ze met emoties, stress en druk om kunnen gaan. De overheid maakt mentale gezondheid daarom een vast onderdeel van het lesprogramma in het basis- en voortgezet onderwijs. Scholen ontvangen erkend lesmateriaal en docenten worden getraind om mentale gezondheid bespreekbaar te maken in de klas. Door deze structurele aandacht bouwen jongeren vanaf jonge leeftijd aan veerkracht en zelfinzicht.",
     },
     {
         id: "2",
-        title: "2",
+        title: "Meldplicht op scholen",
         content:
-            "Uitleg",
+            "Mentale problemen onder jongeren blijven vaak onzichtbaar, terwijl scholen juist een centrale rol spelen in het dagelijks leven van kinderen en jongeren. Daarom wordt er een landelijke meldplicht ingevoerd waarbij scholen verplicht worden om serieuze signalen van psychische klachten, zoals langdurige somberheid, terugtrekgedrag of extreme onrust, te bespreken binnen het interne zorgteam of door te verwijzen naar passende hulp. Zo zorgt de overheid ervoor dat jongeren sneller gezien en geholpen worden, voordat klachten verergeren.",
     },
     {
         id: "3",
-        title: "3",
+        title: "Aandacht op de werkvloer",
         content:
-            "Uitleg",
+            "Mentaal verzuim op het werk neemt toe en steeds meer mensen raken overbelast door stress, prestatiedruk of gebrek aan ondersteuning. De werkvloer is een belangrijke plek om mentale gezondheid te versterken. Door werkgevers wettelijk te verplichten om aandacht te besteden aan mentale gezondheid binnen het arbobeleid, kan er sneller worden ingegrepen bij signalen van overbelasting. De overheid zorgt dat vertrouwenspersonen, coaching en trainingen in stresspreventie standaard worden opgenomen in de aanpak van werkgerelateerde gezondheid.",
     },
     {
         id: "4",
-        title: "4",
+        title: "Mentale zorg in het basispakket",
         content:
-            "Uitleg",
+            "Voor veel mensen is de drempel naar psychische hulp nog te hoog, vooral vanwege kosten. Hierdoor blijven klachten vaak te lang onbehandeld en groeien ze uit tot grotere problemen. Door laagdrempelige mentale hulp volledig op te nemen in het basispakket van de zorgverzekering, wordt hulp eerder en breder toegankelijk. De overheid maakt het mogelijk dat gesprekken met psychologen en andere vormen van lichte begeleiding bij beginnende klachten niet langer voor eigen rekening komen, zodat iedereen tijdig hulp durft en kan zoeken.",
     },
 ];
 
@@ -127,7 +127,7 @@ export function AccordionLandelijk2() {
     return (
         <Card className="ml-auto w-full lg:w-2/5 mr-5 pr-5 pt-5 mb-5 pb-5 sticky top-[4rem] self-start">
             <Accordion type="single" collapsible className="w-full ml-3" >
-            <h2 className="text-xl font-bold text-red-700">Hoe?</h2>
+            <h2 className="text-xl font-bold text-red-700">Wat gaan we doen?</h2>
                 {Landelijk2s.map((Landelijk2) => (
                     <AccordionItem value={Landelijk2.id} key={Landelijk2.id} className="py-2">
                         <AccordionPrimitive.Header className="flex">
