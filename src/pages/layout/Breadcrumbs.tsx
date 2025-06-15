@@ -52,7 +52,7 @@ export const Breadcrumbs = () => {
         return (
           <BreadcrumbItem key={path}>
             {isLast ? (
-              <span className="text-muted-foreground">{label}</span>
+              <span className="text-muted-foreground truncate max-w-[180px] md:max-w-none">{label}</span>
             ) : (
               <>
                 <BreadcrumbLink asChild>
