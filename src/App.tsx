@@ -14,6 +14,7 @@ import { Wetsvoorstel } from './pages/Site/SitePages/Wetsvoorstel';
 import { Opgericht } from './pages/Site/SitePages/SiteInhoud/Nieuws/Opgericht';
 import { PrivacyBeleid } from './pages/Site/SitePages/PrivacyBeleid';
 import { TermsofService } from './pages/Site/SitePages/TermsOfService';
+import { ScrollToTop } from './pages/layout/ScrollToTop';
 
 
 
@@ -25,13 +26,13 @@ export default function App() {
   return (
     <>
 
-
+      <ScrollToTop />
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='*' element={<Navigate to='/' />} />
         <Route index element={<Home />} />
         <Route path='/home' element={<Home />} />
-        <Route path="/over-ons" element={<OverOns />}/>
+        <Route path="/over-ons" element={<OverOns />} />
         <Route path='/nieuws' element={<Nieuws />} />
         <Route path='/wetsvoorstel' element={<Wetsvoorstel />} />
         <Route path='/preventieve-gezondheidszorg' element={<PreventieveGezondheidszorg />} />
