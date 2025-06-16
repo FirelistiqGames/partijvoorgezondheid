@@ -6,7 +6,7 @@
 export function OverOnsInhoud() {
     return (
         <>
-            <div className="mt-15 ml-3 mr-3 mb-5x" >
+            <div className="mt-15 ml-3 mr-3 mb-5" >
 Wij zijn een jonge, ambitieuze partij uit Gouda die zich met volle overtuiging inzet voor één van de meest fundamentele zaken in het leven: gezondheid.
 Niet als luxe, maar als basisrecht.
 Ons motto is dan ook helder: Gezondheid is geen luxe, het is een recht.<br></br>
