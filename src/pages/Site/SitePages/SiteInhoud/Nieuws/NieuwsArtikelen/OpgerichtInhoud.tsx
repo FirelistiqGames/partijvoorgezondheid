@@ -37,7 +37,7 @@ export function OpgerichtInhoud() {
                         Volgens de PvG moet de overheid haar uitgaven verhogen om te voorkomen dat burgers ziek worden, wat uiteindelijk leidt tot een verbetering van de algehele volksgezondheid en een verlaging van de zorgkosten op lange termijn.
                         Daarnaast wil de partij ook landelijk meer aandacht voor mentale gezondheid.
                         “Het is tijd om mentale problemen net zo serieus te nemen als lichamelijke aandoeningen,” aldus partijvoorzitter Tygo van den Heuvel.
-                        Een ander belangrijk landelijk punt is het verhogen van subsidies voor onderzoek gericht op medische kennis en oplossingen. </p>
+                        Een ander belangrijk landelijk punt is het toegankelijker maken van medische studies voor iedereen met de juiste motivatie. </p>
                     <h1 className="text-xl text-red-700 font-semibold">Lokale initiatieven voor Gouda</h1>
                     <p className="mb-2">Ook op lokaal niveau heeft de partij duidelijke ambities.
                         De PvG wil in Gouda gratis sport- en beweegprogramma's aanbieden voor ouderen en inwoners met een laag inkomen.
