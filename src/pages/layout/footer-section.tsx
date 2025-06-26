@@ -100,7 +100,7 @@ function Footerdemo() {
             <address className="space-y-2 text-sm not-italic">
               <p>Willem de Zwijgersingel 5</p>
               <p>2805 BP, Gouda</p>
-              <p>Telefoon: 0182-800850</p>
+              <p>Telefoon: 0182-800813</p>
               <p>Email: partij.voor.gezondheid@info.nl</p>
             </address>
           </div>
